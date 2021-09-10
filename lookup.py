@@ -48,6 +48,6 @@ for index in df.iterrows():
 print(df)
 
 # Reformatted
-df['C'] = df['A'].apply(
-    lambda x: df['A'].loc[df['B'] == x].values[0]
-)
+df['C'] = df['A'].apply(lambda x:
+                        df['A'].loc[df['B'] == x].values[0]
+                        )
